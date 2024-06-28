@@ -45,6 +45,7 @@ const ChannelIdPage = async ({ params }: ChannelIdPageProps) => {
         name={channel.name}
         type="channel"
       />
+      
       {channel.type === ChannelType.TEXT && (
         <>
           <ChatMessages
